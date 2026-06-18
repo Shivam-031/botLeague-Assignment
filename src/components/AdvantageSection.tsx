@@ -66,7 +66,7 @@ export default function AdvantageSection() {
               className="absolute -inset-5 rounded-full pointer-events-none -z-10"
               style={{ background: 'radial-gradient(ellipse at 50% 50%, rgba(42,31,217,.25), transparent 70%)' }}
             />
-            <img src="src/assets/images/leadership board.png" alt="Your path league" className="w-full h-full object-cover rounded-xl "></img>
+            <img src="/images/leadership board.png" alt="Your path league" className="w-full h-full object-cover rounded-xl "></img>
           </div>
         </div>
       </div>
