@@ -1,23 +1,27 @@
-# BotLeagues Website Assignment
+# 🤖 BotLeagues Website
 
-A responsive and modern landing page built with HTML, CSS, and JavaScript, showcasing BotLeagues events, programs, community, and rankings. Designed with a clean UI, smooth navigation, interactive elements, and a mobile-friendly experience.
+A responsive and modern landing page built as a frontend assignment using **React**, **Vite**, **TypeScript**, and **Tailwind CSS**. The website showcases BotLeagues events, programs, community, and rankings with a clean UI, smooth navigation, interactive components, and a mobile-first design.
 
-## Features
+## 🚀 Features
 
-- Responsive design for all screen sizes
-- Smooth scrolling navigation
-- Interactive UI components
-- Modern and clean layout
-- Active navbar section highlighting
-- Optimized performance
+- 📱 Fully responsive design
+- ⚡ Built with Vite for fast development and optimized builds
+- ⚛️ Component-based architecture using React
+- 🔷 Type-safe development with TypeScript
+- 🎨 Styled using Tailwind CSS
+- ✨ Smooth scrolling navigation
+- 🌟 Interactive UI elements
+- 🧭 Active navbar section highlighting
+- 📈 Optimized performance and accessibility
 
-## Technologies Used
+## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
+- React
+- Vite
+- TypeScript
+- Tailwind CSS
 
-## Screenshots
+## 📸 Screenshots
 
 ### Homepage
 <img src="./images/homepage.png" alt="Homepage Screenshot" width="800">
@@ -31,38 +35,78 @@ A responsive and modern landing page built with HTML, CSS, and JavaScript, showc
 ### Community Section
 <img src="./images/community.png" alt="Community Section" width="800">
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
 BotLeagues/
 │
-├── index.html
-├── style.css
-├── script.js
-├── images/
-│   ├── homepage.png
-│   ├── events.png
-│   ├── programs.png
-│   └── community.png
+├── public/
+│   └── images/
+│       ├── homepage.png
+│       ├── events.png
+│       ├── programs.png
+│       └── community.png
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+│
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── tailwind.config.js
 └── README.md
 ```
 
-## Getting Started
+## ⚙️ Getting Started
 
-1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone <repository-url>
 ```
 
-2. Open the project folder
+### 2. Navigate to the project folder
 
 ```bash
 cd BotLeagues
 ```
 
-3. Open `index.html` in your browser.
+### 3. Install dependencies
 
-## Author
+```bash
+npm install
+```
 
-Developed as part of the BotLeagues Frontend Assignment.
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Build for production
+
+```bash
+npm run build
+```
+
+### 6. Preview the production build
+
+```bash
+npm run preview
+```
+
+## 📌 Future Improvements
+
+- Add dark mode support
+- Enhance animations with Framer Motion
+- Improve accessibility (WCAG)
+- Add unit and integration tests
+- Deploy with CI/CD
+
+## 👨‍💻 Author
+
+Developed as part of the **BotLeagues Frontend Assignment**.
