@@ -30,7 +30,7 @@ export default function Header() {
     >
       <div className="wrap flex items-center justify-between">
         <a href="#hero" className="flex items-center gap-2.5">
-          <img src='src/assets/images/logo.png' alt='site logo' className="h-[38px] w-[140px] rounded" />
+          <img src='/images/logo.png' alt='site logo' className="h-[38px] w-[140px] rounded" />
         </a>
 
         <nav

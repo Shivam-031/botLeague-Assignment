@@ -12,10 +12,10 @@ export default function SponsorsSection() {
         </div>
 
         <div className="grid grid-cols-3 max-[900px]:grid-cols-2 max-[560px]:grid-cols-1 gap-x-6 gap-y-[34px]">
-          {sponsors.map((sponsor,i) => (
+          {sponsors.map((sponsor) => (
             <div key={sponsor.id} className="flex items-center gap-4">
               <ImagePlaceholder
-                label={"sp" + i +1}
+                label={sponsor.name}
                 className="shrink-0 w-16 h-16 rounded-full border-[1.5px] border-dashed border-white/[0.28] bg-white/[0.03] text-[9px]"
               />
               <span className="font-display font-bold text-[13px] tracking-[0.03em] uppercase text-white/55 leading-[1.4]">

@@ -33,7 +33,18 @@ export default function ImagePlaceholder({ label, className = '', aspect }: Imag
       <img src="/images/poster5.jpg" alt="Your path league" className="w-full h-full object-cover"></img>:
       label==="Robo War"?
       <img src="/images/poster6.jpg" alt="Your path league" className="w-full h-full object-cover"></img>:
-      <img src={`/images/${label}.png`} alt="Your path league" className="w-full h-full object-cover"></img>  
+      label==="NIT Delhi"?
+      <img src="/images/sp1.png" alt="Your path league" className="w-full h-full object-cover"></img>:
+      label==="Indian IIT"?
+      <img src="/images/sp2.png" alt="Your path league" className="w-full h-full object-cover"></img>:
+      label==="NIT Silchar"?
+      <img src="/images/sp3.png" alt="Your path league" className="w-full h-full object-cover"></img>:
+      label==="Robo Company"?
+      <img src="/images/sp4.png" alt="Your path league" className="w-full h-full object-cover"></img>:
+      label==="IIT Bombay"?
+      <img src="/images/sp5.png" alt="Your path league" className="w-full h-full object-cover"></img>:
+      <img src="/images/sp6.png" alt="Your path league" className="w-full h-full object-cover"></img>
+       
 
     }
   
