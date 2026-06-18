@@ -18,22 +18,22 @@ export default function ImagePlaceholder({ label, className = '', aspect }: Imag
       aria-label={label}
 
     >{label && label==="Hero background"?
-      <img src="/src/assets/images/hero.png" alt="BotLeague Hero" className="w-full h-auto"></img>:
+      <img src="src/assets/images/hero.png" alt="BotLeague Hero" className="w-full h-auto"></img>:
       label==="Your Path to the League"?
-      <img src="/src/assets/images/Your Path.jpeg" alt="Your path league" className="w-full h-auto"></img>:
+      <img src="src/assets/images/Your Path.jpeg" alt="Your path league" className="w-full h-auto"></img>:
       label==="Robo Race"?
-      <img src="/src/assets/images/poster1.jpg" alt="Your path league" className="w-full h-full object-cover"></img>:
+      <img src="src/assets/images/poster1.jpg" alt="Your path league" className="w-full h-full object-cover"></img>:
       label==="Line Follower"?
-      <img src="/src/assets/images/poster2.jpg" alt="Your path league" className="w-full h-full object-cover"></img>:
+      <img src="src/assets/images/poster2.jpg" alt="Your path league" className="w-full h-full object-cover"></img>:
       label==="RC Racing"?
-      <img src="/src/assets/images/poster3.jpg" alt="Your path league" className="w-full h-full object-cover"></img>:
+      <img src="src/assets/images/poster3.jpg" alt="Your path league" className="w-full h-full object-cover"></img>:
       label==="FPV Drone Racing & Autonomy"?
-      <img src="/src/assets/images/poster4.jpg" alt="Your path league" className="w-full h-full object-cover"></img>:
+      <img src="src/assets/images/poster4.jpg" alt="Your path league" className="w-full h-full object-cover"></img>:
       label==="Robo Hockey"?
-      <img src="/src/assets/images/poster5.jpg" alt="Your path league" className="w-full h-full object-cover"></img>:
+      <img src="src/assets/images/poster5.jpg" alt="Your path league" className="w-full h-full object-cover"></img>:
       label==="Robo War"?
-      <img src="/src/assets/images/poster6.jpg" alt="Your path league" className="w-full h-full object-cover"></img>:
-      <img src={`/src/assets/images/${label}.png`} alt="Your path league" className="w-full h-full object-cover"></img>  
+      <img src="src/assets/images/poster6.jpg" alt="Your path league" className="w-full h-full object-cover"></img>:
+      <img src={`src/assets/images/${label}.png`} alt="Your path league" className="w-full h-full object-cover"></img>  
 
     }
   
